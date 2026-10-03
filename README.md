@@ -63,7 +63,7 @@ Meet **Mochi**: a soft little squircle with big eyes that pops out of your notch
 
 ### Download for macOS
 
-1. Grab the latest `IA MOTION.zip` from [Releases](https://github.com/Louis-CFM/IA MOTION/releases).
+1. Grab the latest `IA MOTION.zip` from [Releases](https://github.com/Sophiahtml/IA-MOTION/releases).
 2. Unzip and move **IA MOTION.app** to `/Applications`.
 3. Launch it, and click **Open** when macOS asks you to confirm. Updating from 0.1.0? macOS may ask you, once for each key you saved, to let IA MOTION use it: enter your Mac password and click **Always Allow**.
 
@@ -80,7 +80,7 @@ rest of the differences.
 
 ### Linux
 
-The first Linux build is out as a beta: download it from [IA MOTION for Linux 0.1.1 (beta)](https://github.com/Louis-CFM/IA MOTION/releases/tag/linux-v0.1.1), x86_64 only for now. Later versions will be in [Releases](https://github.com/Louis-CFM/IA MOTION/releases) under `linux-v*` tags.
+The first Linux build is out as a beta: download it from [IA MOTION for Linux 0.1.1 (beta)](https://github.com/Sophiahtml/IA-MOTION/releases/tag/linux-v0.1.1), x86_64 only for now. Later versions will be in [Releases](https://github.com/Sophiahtml/IA-MOTION/releases) under `linux-v*` tags.
 
 - **AppImage** (any distribution): `chmod +x IA MOTION-Linux-*.AppImage`, then run it.
 - **Debian / Ubuntu**: `sudo apt install ./IA MOTION-Linux-*.deb`
@@ -98,7 +98,7 @@ so there it opens as a regular window. See [`windows/README.md`](windows/README.
 
 ```bash
 brew install xcodegen
-git clone https://github.com/Louis-CFM/IA MOTION.git
+git clone https://github.com/Sophiahtml/IA-MOTION.git
 cd IA MOTION/NotchBuddy
 xcodegen
 open NotchBuddy.xcodeproj   # then ⌘R
@@ -107,7 +107,7 @@ open NotchBuddy.xcodeproj   # then ⌘R
 **Windows** — requirements: [Rust](https://rustup.rs), Node 20+, MSVC build tools.
 
 ```powershell
-git clone https://github.com/Louis-CFM/IA MOTION.git
+git clone https://github.com/Sophiahtml/IA-MOTION.git
 cd IA MOTION/windows
 npm install
 npm run pack                # installer lands in windows/release/
@@ -121,7 +121,7 @@ sudo apt install build-essential pkg-config \
   libwebkit2gtk-4.1-dev libgtk-layer-shell-dev libayatana-appindicator3-dev \
   librsvg2-dev libssl-dev libdbus-1-dev patchelf \
   gstreamer1.0-plugins-base gstreamer1.0-plugins-good
-git clone https://github.com/Louis-CFM/IA MOTION.git
+git clone https://github.com/Sophiahtml/IA-MOTION.git
 cd IA MOTION/windows
 npm install
 npm run pack                # AppImage, .deb and .rpm land in windows/release/
@@ -192,18 +192,18 @@ Issues and PRs are very welcome — new integrations, new emotes, new sounds, bu
 
 ## Credits
 
-Built by [Louis Raillé](https://louisraille.fr) with Claude Code.
+Built by [Sophiahtml](https://github.com/Sophiahtml/IA-MOTION) with Claude Code.
 Inspired by the notch-companion concepts shared by design studios — this project is independent and not affiliated with any of them.
 
 ## License
 
 - **Code:** [MIT](LICENSE) — use it, fork it, learn from it, just keep the copyright notice.
-- **Name, Mochi character, icon, sounds and media:** © Louis Raillé, all rights reserved — see [LICENSE-ASSETS.md](LICENSE-ASSETS.md). Shipping your own fork? Give it your own name and character.
+- **Name, Mochi character, icon, sounds and media:** © Sophiahtml, all rights reserved — see [LICENSE-ASSETS.md](LICENSE-ASSETS.md). Shipping your own fork? Give it your own name and character.
 
 <div align="center">
 
 **If Mochi made you smile, a ⭐ helps a lot.**
 
-[Website](https://louis-cfm.github.io/IA MOTION/) · [Privacy](https://louis-cfm.github.io/IA MOTION/privacy.html) · [Terms](https://louis-cfm.github.io/IA MOTION/terms.html) · [Support](https://louis-cfm.github.io/IA MOTION/support.html)
+[Website](https://github.com/Sophiahtml/IA-MOTION/) · [Privacy](https://github.com/Sophiahtml/IA-MOTION/privacy.html) · [Terms](https://github.com/Sophiahtml/IA-MOTION/terms.html) · [Support](https://github.com/Sophiahtml/IA-MOTION/support.html)
 
 </div>

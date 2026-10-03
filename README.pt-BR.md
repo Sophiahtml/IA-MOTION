@@ -63,7 +63,7 @@ Conheça **Mochi**: um squircle (quadrado arredondado) macio com olhos grandes q
 
 ### Download para macOS
 
-1. Pegue o `IA MOTION.zip` mais recente em [Releases](https://github.com/Louis-CFM/IA MOTION/releases).
+1. Pegue o `IA MOTION.zip` mais recente em [Releases](https://github.com/Sophiahtml/IA-MOTION/releases).
 2. Descompacte e mova o **IA MOTION.app** para `/Applications`.
 3. Inicie-o e clique em **Open** quando o macOS pedir para confirmar. Atualizando da versão 0.1.0? O macOS pode pedir, uma vez para cada chave que você salvou, para deixar o IA MOTION usá-la: insira a senha do seu Mac e clique em **Always Allow**.
 
@@ -76,7 +76,7 @@ Não há notch em um PC, então a ilha desliza da borda superior da tela em vez 
 
 ### Linux
 
-A primeira build para Linux foi lançada como beta: baixe em [IA MOTION para Linux 0.1.1 (beta)](https://github.com/Louis-CFM/IA MOTION/releases/tag/linux-v0.1.1), apenas x86_64 por enquanto. Versões posteriores estarão em [Releases](https://github.com/Louis-CFM/IA MOTION/releases) nas tags `linux-v*`.
+A primeira build para Linux foi lançada como beta: baixe em [IA MOTION para Linux 0.1.1 (beta)](https://github.com/Sophiahtml/IA-MOTION/releases/tag/linux-v0.1.1), apenas x86_64 por enquanto. Versões posteriores estarão em [Releases](https://github.com/Sophiahtml/IA-MOTION/releases) nas tags `linux-v*`.
 
 - **AppImage** (qualquer distribuição): `chmod +x IA MOTION-Linux-*.AppImage`, e então execute-o.
 - **Debian / Ubuntu**: `sudo apt install ./IA MOTION-Linux-*.deb`
@@ -92,7 +92,7 @@ A ilha fica na borda superior em compositores com layer-shell — COSMIC, KDE Pl
 
 ```bash
 brew install xcodegen
-git clone https://github.com/Louis-CFM/IA MOTION.git
+git clone https://github.com/Sophiahtml/IA-MOTION.git
 cd IA MOTION/NotchBuddy
 xcodegen
 open NotchBuddy.xcodeproj   # e então ⌘R
@@ -101,7 +101,7 @@ open NotchBuddy.xcodeproj   # e então ⌘R
 **Windows** — requisitos: [Rust](https://rustup.rs), Node 20+, MSVC build tools.
 
 ```powershell
-git clone https://github.com/Louis-CFM/IA MOTION.git
+git clone https://github.com/Sophiahtml/IA-MOTION.git
 cd IA MOTION/windows
 npm install
 npm run pack                # o instalador vai parar em windows/release/
@@ -114,7 +114,7 @@ sudo apt install build-essential pkg-config \
   libwebkit2gtk-4.1-dev libgtk-layer-shell-dev libayatana-appindicator3-dev \
   librsvg2-dev libssl-dev libdbus-1-dev patchelf \
   gstreamer1.0-plugins-base gstreamer1.0-plugins-good
-git clone https://github.com/Louis-CFM/IA MOTION.git
+git clone https://github.com/Sophiahtml/IA-MOTION.git
 cd IA MOTION/windows
 npm install
 npm run pack                # AppImage, .deb e .rpm vão parar em windows/release/
@@ -183,18 +183,18 @@ Issues e PRs são muito bem-vindos — novas integrações, novos emotes, novos 
 
 ## Créditos
 
-Construído por [Louis Raillé](https://louisraille.fr) com Claude Code.
+Construído por [Sophiahtml](https://github.com/Sophiahtml/IA-MOTION) com Claude Code.
 Inspirado pelos conceitos de companheiros de notch compartilhados por estúdios de design — este projeto é independente e não afiliado a nenhum deles.
 
 ## Licença
 
 - **Código:** [MIT](LICENSE) — use-o, faça fork, aprenda com ele, apenas mantenha o aviso de direitos autorais.
-- **Nome, personagem Mochi, ícone, sons e mídia:** © Louis Raillé, todos os direitos reservados — veja [LICENSE-ASSETS.md](LICENSE-ASSETS.md). Vai lançar seu próprio fork? Dê a ele seu próprio nome e personagem.
+- **Nome, personagem Mochi, ícone, sons e mídia:** © Sophiahtml, todos os direitos reservados — veja [LICENSE-ASSETS.md](LICENSE-ASSETS.md). Vai lançar seu próprio fork? Dê a ele seu próprio nome e personagem.
 
 <div align="center">
 
 **Se o Mochi te fez sorrir, uma ⭐ ajuda muito.**
 
-[Site](https://louis-cfm.github.io/IA MOTION/) · [Privacidade](https://louis-cfm.github.io/IA MOTION/privacy.html) · [Termos](https://louis-cfm.github.io/IA MOTION/terms.html) · [Suporte](https://louis-cfm.github.io/IA MOTION/support.html)
+[Site](https://github.com/Sophiahtml/IA-MOTION) · [Privacidade](https://github.com/Sophiahtml/IA-MOTION/blob/main/docs/privacy.html) · [Termos](https://github.com/Sophiahtml/IA-MOTION/blob/main/docs/terms.html) · [Suporte](https://github.com/Sophiahtml/IA-MOTION/blob/main/docs/support.html)
 
 </div>
